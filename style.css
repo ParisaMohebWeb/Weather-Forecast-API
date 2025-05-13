@@ -71,7 +71,7 @@ main {
         }
 
         >p {
-            font-size: large;
+            font-size: 30px;
             font-weight: bold;
 
             >.weather-icon {
@@ -83,6 +83,9 @@ main {
             font-size: 120px;
             font-weight: bolder;
         }
+       .kind-weather{
+        font-size: 30px;
+       }
 
     }
 }
