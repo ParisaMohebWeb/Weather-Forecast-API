@@ -6,12 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather forecast</title>
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="bootstrap CDN/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
-<main>
-    <form action="#" spellcheck="false" autocomplete="off"></form>
+<main class="d-flex justify-content-center flex-column align-items-center">
+    <section class="main-w d-flex justify-content-center">
+        <form action="#" autocomplete="off" spellcheck="false">
+            <div class="d-flex align-items-center">
+                <input class="p-3" type="text" placeholder="Enter your city name . . .">
+                <span class="d-flex align-items-center justify-content-center"><i class="bi bi-search"></i></span>
+            </div>
+        </form>
+    </section>
+    <section class="city-weather d-flex flex-column justify-content-between align-items-center">
+        <h1 class="mt-5">Tehran, Iran</h1>
+        <p>2025-05-13 18:15 <span class="weather-icon ms-5">icon</span></p>
+        <h2 class="mt-5">33.32 C</h2>
+    </section>
+ 
 </main>
 
 <body>
